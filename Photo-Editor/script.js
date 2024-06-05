@@ -3,7 +3,7 @@ onload = function () {
   const context = editor.getContext("2d");
   const toolbar = document.getElementById("toolbar");
 
-  // tools is actually a map
+  // tools is actually a map like
   const tools = {
     upload: function () {
       const upload = document.createElement("input");
